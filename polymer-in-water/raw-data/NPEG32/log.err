@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   dahu167
+  Local device: hfi1_0
+--------------------------------------------------------------------------
+[dahu167:655102] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[dahu167:655102] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   dahu167
+  Local device: hfi1_0
+--------------------------------------------------------------------------
+[dahu167:655208] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[dahu167:655208] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   dahu167
+  Local device: hfi1_0
+--------------------------------------------------------------------------
+[dahu167:658661] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[dahu167:658661] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   dahu167
+  Local device: hfi1_0
+--------------------------------------------------------------------------
+[dahu167:662140] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[dahu167:662140] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

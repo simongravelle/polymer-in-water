@@ -1,0 +1,23 @@
+# LAMMPS input file
+# PEG molecule in water
+# author : Simon Gravelle
+
+include PAIR.lammps
+read_data em.data
+include H2O.lammps
+include PEG.lammps
+include GROUP.lammps
+
+# dynamics
+timestep 1
+fix myshk H2O shake 1.0e-5 200 0 b 6 a 9
+fix mynpt all npt temp 300 300 100 iso 100 100 1000
+
+# output
+dump mydmp all atom 10000 dump.lammpstrj
+dump_modify mydmp append yes
+thermo 10000
+
+# run
+run 100000
+write_data equil100.data

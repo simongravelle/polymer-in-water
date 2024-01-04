@@ -1,0 +1,4 @@
+# define groups
+group PEG type 1 2 3 4 5
+group H2O type 6 7
+group HYD type 3 5 7

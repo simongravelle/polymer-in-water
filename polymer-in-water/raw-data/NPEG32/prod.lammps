@@ -1,0 +1,22 @@
+# LAMMPS input file
+# PEG molecule in water
+# author : Simon Gravelle
+
+include PAIR.lammps
+read_data equil1.data
+include H2O.lammps
+include PEG.lammps
+include GROUP.lammps
+
+# dynamics
+timestep 1
+fix myshk H2O shake 1.0e-5 200 0 b 6 a 9
+fix mynpt all npt temp 300 300 100 iso 1 1 1000
+
+# output - print positions every 2 picosecond
+dump mydmp all xtc 1000 prod.xtc 
+thermo 1000
+
+# run 
+run 10000000 # 10 ns
+write_data prod.data
