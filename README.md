@@ -8,9 +8,19 @@ Raw trajectory files used for the
 isotropic tutorial of [nmrformd](https://nmrformd.readthedocs.io).
 The GROMACS input files and topology are also given.
 
-<a href="https://raw.githubusercontent.com/simongravelle/nmrformd/main/docs/source/figures/tutorials/isotropic-systems/snapshot.png">
-<img src="avatars/bulk-water.png" width="32%" />
+## Simulation
+
+<a href="webp">
+<img src="https://raw.githubusercontent.com/simongravelle/nmrformd/main/docs/source/figures/tutorials/isotropic-systems/snapshot.png" align="right" width="32%" />
 </a>
+
+The system is made of a bulk mixture of 320 `\text{TIP4P}-\epsilon` water molecules
+and 32 `\text{PEG}300` polymer molecules. The trajectory was recorded
+during a `10\,\text{ns}` production run performed with the open source code LAMMPS
+in the NPT ensemble using a timestep of `1\,\text{fs}`.
+The imposed was temperature `T = 300\,^\circ\text{K}`, and the pressure
+`p = 1\,\text{atm}`. The positions of the atoms were recorded in
+the *prod.xtc* file every `1\,\text{ps}`.
 
 ## Acknowledgments
 
