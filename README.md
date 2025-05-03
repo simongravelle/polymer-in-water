@@ -8,7 +8,8 @@ Raw trajectory files used for the
 isotropic tutorial of [nmrformd](https://nmrformd.readthedocs.io).
 The GROMACS input files and topology are also given.
 
-Thie repository was replaced by [that new one](https://github.com/NMRDfromMD/dataset-peg-water-mixture).
+Thie repository was [replaced](https://github.com/NMRDfromMD/dataset-peg-water-mixture)
+following the migration from nmrformd to nmrdfrommd.
 
 ## Simulation
 
